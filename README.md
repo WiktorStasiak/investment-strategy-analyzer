@@ -8,6 +8,7 @@ Aplikacja desktopowa do analizy strategii inwestycyjnej **Buy & Hold** z porówn
 ---
 
 ## Zrzut ekranu
+<img width="959" height="599" alt="image" src="https://github.com/user-attachments/assets/56c1b06a-a37d-4787-bfff-9ec3dbccba13" />
 
 > Wprowadź ticker, ustaw parametry i kliknij **Analizuj** — wykresy aktualizują się automatycznie.
 
