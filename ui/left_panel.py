@@ -253,10 +253,9 @@ class LeftPanel(tk.Frame):
         def fmt_proc(v: float) -> str:
             return f"{'+'if v >= 0 else ''}{v:.1f}%"
 
-        def blok(m: dict, suffix: str = "") -> str:
-            nazwa = m["nazwa"] + (f"\n({suffix})" if suffix else "")
+        def blok(m: dict) -> str:
             return (
-                f"{nazwa}\n"
+                f"{m['nazwa']}\n"
                 f"Zainwest: {fmt_usd(m['zainwestowano'])}\n"
                 f"Wart.koń: {fmt_usd(m['wartosc_koncowa'])}\n"
                 f"Zysk/Str: {fmt_usd(m['zysk'])}\n"
@@ -268,7 +267,7 @@ class LeftPanel(tk.Frame):
         self._ustaw_tekst(self._txt_aktywo, blok(metryki_aktywa))
         self._ustaw_tekst(
             self._txt_benchmark,
-            blok(metryki_benchmark, "benchmark") if metryki_benchmark else "",
+            blok(metryki_benchmark) if metryki_benchmark else "",
         )
 
     def ustaw_stan_przycisku(self, stan: str, tekst: str) -> None:
