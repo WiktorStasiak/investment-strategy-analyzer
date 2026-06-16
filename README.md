@@ -3,11 +3,11 @@
 Aplikacja desktopowa do analizy strategii inwestycyjnej **Buy & Hold** z porównaniem do dowolnego benchmarku (domyślnie S&P 500). Dane pobierane są w czasie rzeczywistym z Yahoo Finance.
 
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-green?style=flat)
 
 ---
 
 ## Zrzut ekranu
+<img width="959" height="599" alt="gui" src="https://github.com/user-attachments/assets/71cfa4e6-bc72-48fd-bf5e-1a9d374e674c" />
 
 > Wprowadź ticker, ustaw parametry i kliknij **Analizuj** — wykresy aktualizują się automatycznie.
 
@@ -98,7 +98,3 @@ Warstwy są oddzielone — `data/` nie importuje niczego z `ui/`, zależności p
 > CAGR liczony jest na podstawie łącznej zainwestowanej kwoty, nie pierwszej wpłaty — jest to uproszczenie właściwe dla strategii DCA (Dollar-Cost Averaging).
 
 ---
-
-## Licencja
-
-MIT — szczegóły w pliku [LICENSE](LICENSE).
