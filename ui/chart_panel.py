@@ -1,5 +1,5 @@
 """
-Prawy panel interfejsu graficznego aplikacji Investment Analyzer.
+Prawy panel interfejsu graficznego aplikacji Buy & Hold Strategy Analyzer.
 
 Zawiera wykres matplotlib z dwoma subplotami:
     - Górny: wartość portfela w czasie.

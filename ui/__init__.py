@@ -1,1 +1,1 @@
-# Pakiet interfejsu graficznego aplikacji Investment Analyzer (tkinter).
+# Pakiet interfejsu graficznego aplikacji Buy & Hold Strategy Analyzer (tkinter).

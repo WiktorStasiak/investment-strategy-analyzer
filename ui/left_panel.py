@@ -1,5 +1,5 @@
 """
-Lewy panel interfejsu graficznego aplikacji Investment Analyzer.
+Lewy panel interfejsu graficznego aplikacji Buy & Hold Strategy Analyzer.
 
 Zawiera:
 - Formularz wejściowy (ticker, benchmark, kwota, okres, częstotliwość).
@@ -75,7 +75,7 @@ class LeftPanel(tk.Frame):
 
         tk.Label(naglowek, text="📈", font=("Segoe UI Emoji", 18),
                  bg=COLORS["bg_dark"], fg=COLORS["accent_blue"]).pack()
-        tk.Label(naglowek, text="Investment Analyzer",
+        tk.Label(naglowek, text="Buy & Hold Strategy Analyzer",
                  font=("Georgia", 12, "bold"),
                  bg=COLORS["bg_dark"], fg=COLORS["text_primary"],
                  justify="center").pack()

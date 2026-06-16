@@ -1,5 +1,5 @@
 """
-Stałe konfiguracyjne aplikacji Investment Analyzer.
+Stałe konfiguracyjne aplikacji Buy & Hold Strategy Analyzer.
 Zawiera: domyślny ticker benchmarku, opcje częstotliwości/okresu oraz paletę kolorów.
 """
 

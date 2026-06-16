@@ -1,14 +1,13 @@
-# investment-strategy-analyzer
+# Buy & Hold Strategy Analyzer
 
 Aplikacja desktopowa do analizy strategii inwestycyjnej **Buy & Hold** z porównaniem do dowolnego benchmarku (domyślnie S&P 500). Dane pobierane są w czasie rzeczywistym z Yahoo Finance.
 
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green?style=flat)
 
 ---
 
 ## Zrzut ekranu
-<img width="959" height="599" alt="image" src="https://github.com/user-attachments/assets/c5be31e3-e9a2-4985-83ad-da773356c68e" />
-
 
 > Wprowadź ticker, ustaw parametry i kliknij **Analizuj** — wykresy aktualizują się automatycznie.
 
@@ -37,8 +36,8 @@ Aplikacja desktopowa do analizy strategii inwestycyjnej **Buy & Hold** z porówn
 ## Instalacja
 
 ```bash
-git clone https://github.com/<twoj-login>/investment-strategy-analyzer.git
-cd investment-strategy-analyzer
+git clone https://github.com/<twoj-login>/buy-and-hold-strategy-analyzer.git
+cd buy-and-hold-strategy-analyzer
 pip install -r requirements.txt
 python main.py
 ```
@@ -71,7 +70,7 @@ Pole benchmarku można zostawić puste — wtedy dolny wykres pokazuje same ceny
 ## Struktura projektu
 
 ```
-investment-strategy-analyzer/
+buy-and-hold-strategy-analyzer/
 ├── main.py                 # Punkt wejścia
 ├── config.py               # Stałe: kolory, opcje częstotliwości i okresów
 ├── requirements.txt
@@ -99,3 +98,7 @@ Warstwy są oddzielone — `data/` nie importuje niczego z `ui/`, zależności p
 > CAGR liczony jest na podstawie łącznej zainwestowanej kwoty, nie pierwszej wpłaty — jest to uproszczenie właściwe dla strategii DCA (Dollar-Cost Averaging).
 
 ---
+
+## Licencja
+
+MIT — szczegóły w pliku [LICENSE](LICENSE).

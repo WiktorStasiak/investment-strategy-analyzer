@@ -1,5 +1,5 @@
 """
-Główna klasa aplikacji Investment Analyzer.
+Główna klasa aplikacji Buy & Hold Strategy Analyzer.
 
 Odpowiada za:
 - Inicjalizację okna tkinter i zmiennych formularza.
@@ -32,7 +32,7 @@ class InvestmentAnalyzerApp(tk.Tk):
     def __init__(self):
         super().__init__()
 
-        self.title("Investment Analyzer — Buy & Hold Strategy")
+        self.title("Buy & Hold Strategy Analyzer")
         self.configure(bg=COLORS["bg_dark"])
         self.minsize(1080, 720)
 

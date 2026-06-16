@@ -1,6 +1,6 @@
 """
 ====================================================================
-Investment Strategy Analyzer - Buy & Hold vs S&P 500 Benchmark
+Buy & Hold Strategy Analyzer
 ====================================================================
 Autor: Projekt Analizy Danych
 Opis:
